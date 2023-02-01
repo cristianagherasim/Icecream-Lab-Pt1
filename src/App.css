@@ -6,3 +6,10 @@
 .main > * {
     flex: 1;
 }
+
+.adFlavors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}

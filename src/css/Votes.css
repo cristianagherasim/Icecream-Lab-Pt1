@@ -15,27 +15,27 @@
      margin-top: 8px;
      margin-bottom: 2px;
  }
- 
+
  .progressChocolate {
-     background-color: gray;
- }
- 
- .progressChocolate::-moz-progress-bar{
-     background-color: sienna;
- }
- 
- .progressVanilla {
-     background-color: gray;
- }
- 
- .progressVanilla::-moz-progress-bar{
-     background-color: silver;
- }
- 
- .progressStrawberry {
-     background-color: gray;
- }
- 
- .progressStrawberrry::-moz-prgress-bar{
-     background-color: pink;
- }
+    background-color: gray;
+}
+
+.progressChocolate::-webkit-progress-value{
+    background-color: sienna;
+}
+
+.progressVanilla {
+    background-color: gray;
+}
+
+.progressVanilla::-webkit-progress-value{
+    background-color: silver;
+}
+
+.progressStrawberry {
+    background-color: gray;
+}
+
+.progressStrawberry::-webkit-progress-value{
+    background-color: pink;
+}

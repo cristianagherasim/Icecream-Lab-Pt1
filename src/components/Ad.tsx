@@ -7,10 +7,11 @@ interface AdProperties{
 }
 
 export function Ad(props:AdProperties){
-    let className = "Ad " + (props.isLight ? "Ad--light" : "Ad--Dark");
+    console.log(props.isLight);
+    let className = "Ad " + (props.isLight ? "Ad--light" : "Ad--dark");
     return(
         <div className={className}>
-            <p className='Ad'>Vote For:</p>
+            <p>Vote For:</p>
             <p style={{ fontSize: props.fontSize }}>{props.flavor}</p>
         </div>
         
